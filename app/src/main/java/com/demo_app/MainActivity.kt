@@ -38,7 +38,6 @@ class MainActivity : ComponentActivity() {
                     onClick = {
 
 //hello
-
 Toast.makeText(context,"Good Evening Sir", Toast.LENGTH_SHORT).show()
                 }) {
                     Text(text = "Save", fontSize = 15.sp, color = Color.White, fontWeight = FontWeight.Bold)
@@ -47,7 +46,7 @@ Toast.makeText(context,"Good Evening Sir", Toast.LENGTH_SHORT).show()
                     modifier = Modifier.padding(10.dp).fillMaxWidth(),
                     shape = RoundedCornerShape(10.dp),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = Color.Green
+                        containerColor = Color.Red
                     ),
                     onClick = {
                     Toast.makeText(context,"Submit all  List data", Toast.LENGTH_SHORT).show()
