@@ -115,7 +115,7 @@ Toast.makeText(context,"Good Evening Sir", Toast.LENGTH_SHORT).show()
                     modifier = Modifier.padding(10.dp)
                         .background(color = Color.LightGray, shape = RoundedCornerShape(10.dp)).fillMaxWidth().height(200.dp),
                     state = rememberPagerState(
-                        initialPage = 0,
+                        initialPage = 1,
                         pageCount = {list.size}
                     )
                 ) {index->
